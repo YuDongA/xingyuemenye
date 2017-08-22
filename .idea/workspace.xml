@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e1289d0-020d-4975-b0b2-ed5bfb83ff0a" name="默认" comment="" />
+    <list default="true" id="0e1289d0-020d-4975-b0b2-ed5bfb83ff0a" name="默认" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="星月门业.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,14 +25,14 @@
     <favorites_list name="星月门业" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47218156">
+    <splitter split-orientation="horizontal" split-proportion="0.63982433">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="xy-index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="xy-index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xy-index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="427" column="3" selection-start-line="427" selection-start-column="3" selection-end-line="429" selection-end-column="10" />
+                <state relative-caret-position="243">
+                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
                   <folding>
                     <element signature="e#756#762#0" expanded="true" />
                     <element signature="e#762#768#0" expanded="true" />
@@ -41,10 +44,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="xy-zjxy.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="xy-zjxy.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/xy-zjxy.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
+                <state relative-caret-position="812">
                   <caret line="286" column="33" selection-start-line="286" selection-start-column="33" selection-end-line="286" selection-end-column="33" />
                   <folding>
                     <element signature="e#781#787#0" expanded="true" />
@@ -57,7 +60,7 @@
           <file leaf-file-name="xy-index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/xy-index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
+                <state relative-caret-position="972">
                   <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                   <folding />
                 </state>
@@ -109,6 +112,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -258,11 +264,12 @@
       <workItem from="1503366845542" duration="1316000" />
       <workItem from="1503368701145" duration="3546000" />
       <workItem from="1503386085770" duration="10002000" />
+      <workItem from="1503400863809" duration="45000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83164000" />
+    <option name="totallyTimeSpent" value="83209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -578,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xy-index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="972">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
@@ -670,20 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="427" column="3" selection-start-line="427" selection-start-column="3" selection-end-line="429" selection-end-column="10" />
-          <folding>
-            <element signature="e#756#762#0" expanded="true" />
-            <element signature="e#762#768#0" expanded="true" />
-            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/xy-zjxy.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -694,11 +685,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/xy-zjxy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
+        <state relative-caret-position="812">
           <caret line="286" column="33" selection-start-line="286" selection-start-column="33" selection-end-line="286" selection-end-column="33" />
           <folding>
             <element signature="e#781#787#0" expanded="true" />
             <element signature="e#787#793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#756#762#0" expanded="true" />
+            <element signature="e#762#768#0" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
