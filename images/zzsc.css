@@ -1,0 +1,12 @@
+/* CSS Document */
+body,ul,li{ padding:0; margin:0;}
+.picbox ul,li{ list-style:none;}
+img{ border:none;}
+.box{ width:980px; margin:0 auto; position:relative; overflow:hidden; _height:100%;}
+.picbox{ margin-top:30px; width:980px; height:148px; overflow:hidden; position:relative;}
+.piclist{ height:115px;position:absolute; left:0px; top:0px}
+.piclist li{ background:#eee; margin-right:22px; padding:5px; float:left;}
+.swaplist{ position:absolute; left:-3000px; top:0px}
+.og_prev,.og_next{ width:36px; height:36px; background:url(../images/About/left.png) no-repeat;position:absolute; top:90px; z-index:99; cursor:pointer;}
+.og_prev{ background-position:0 0px; left:4px;}
+.og_next{ background-position:0 0; right:6px; background:url(../images/About/right.png) no-repeat; }

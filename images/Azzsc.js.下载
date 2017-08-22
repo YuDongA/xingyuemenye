@@ -1,0 +1,71 @@
+// JavaScript Document
+$(document).ready(function(e) {
+	/***不需要自动滚动，去掉即可***/
+	time = window.setInterval(function(){
+		$('.Aog_next').click();	
+	},5000);
+	/***不需要自动滚动，去掉即可***/
+	linum = $('.Amainlist li').length;//图片数量
+	w = linum * 250;//ul宽度
+	$('.Apiclist').css('width', w + 'px');//ul宽度
+	$('.Aswaplist').html($('.Amainlist').html());//复制内容
+	
+	$('.Aog_next').click(function(){
+		
+		if($('.Aswaplist,.Amainlist').is(':animated')){
+			$('.Aswaplist,.Amainlist').stop(true,true);
+		}
+		
+		if($('.Amainlist li').length>4){//多于4张图片
+			ml = parseInt($('.Amainlist').css('left'));//默认图片ul位置
+			sl = parseInt($('.Aswaplist').css('left'));//交换图片ul位置
+			if(ml<=0 && ml>w*-1){//默认图片显示时
+				$('.Aswaplist').css({left: '1000px'});//交换图片放在显示区域右侧
+				$('.Amainlist').animate({left: ml - 1000 + 'px'},'slow');//默认图片滚动				
+				if(ml==(w-1000)*-1){//默认图片最后一屏时
+					$('.Aswaplist').animate({left: '0px'},'slow');//交换图片滚动
+				}
+			}else{//交换图片显示时
+				$('.Amainlist').css({left: '1000px'})//默认图片放在显示区域右
+				$('.Aswaplist').animate({left: sl - 1000 + 'px'},'slow');//交换图片滚动
+				if(sl==(w-1000)*-1){//交换图片最后一屏时
+					$('.Amainlist').animate({left: '0px'},'slow');//默认图片滚动
+				}
+			}
+		}
+	})
+	$('.og_prev').click(function(){
+		
+		if($('.Aswaplist,.Amainlist').is(':animated')){
+			$('.Aswaplist,.Amainlist').stop(true,true);
+		}
+		
+		if($('.Amainlist li').length>4){
+			ml = parseInt($('.Amainlist').css('left'));
+			sl = parseInt($('.Aswaplist').css('left'));
+			if(ml<=0 && ml>w*-1){
+				$('.Aswaplist').css({left: w * -1 + 'px'});
+				$('.Amainlist').animate({left: ml + 1000 + 'px'},'slow');				
+				if(ml==0){
+					$('.Aswaplist').animate({left: (w - 1000) * -1 + 'px'},'slow');
+				}
+			}else{
+				$('.Amainlist').css({left: (w - 1000) * -1 + 'px'});
+				$('.Aswaplist').animate({left: sl + 1000 + 'px'},'slow');
+				if(sl==0){
+					$('.Amainlist').animate({left: '0px'},'slow');
+				}
+			}
+		}
+	})    
+});
+
+$(document).ready(function(){
+	$('.Aog_prev,.Aog_next').hover(function(){
+			$(this).fadeTo('fast',1);
+		},function(){
+			$(this).fadeTo('fast',0.7);
+	})
+
+})
+

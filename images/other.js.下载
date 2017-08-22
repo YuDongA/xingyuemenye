@@ -1,0 +1,111 @@
+﻿$(function() {
+    // 自定义 select
+    (function () {
+        var selects = $("#left .divSelect");
+        if (!selects.length) return;
+        selects.each(function(idx) {
+            var elem   = $(this),
+                idx    = elem.index(),
+                cptn   = elem.find('.caption'),
+                ul     = elem.find('ul'),
+                slct   = elem.find('select'),
+                optn   = elem.find('option'),
+                duration  = 150,
+                opened = false,
+                tt = -1,
+                isUser = $('#volunteer .user').length === 1;
+                offset_on  = isUser? -54: -51,
+                offset_off = isUser? -3: 0;
+
+            if (!slct.length) return;
+            ul.children().eq(0).addClass('on');
+            elem.on('mousedown', function(e, target) {
+                if (opened) {
+                    target = getEventTarget(e);
+		    if (target.nodeName === "SPAN") return;
+                    if (target.nodeName === "LI") target.className = "on";
+                    cptn.text(getEventTargetText(target));
+                    optn.val(target.getAttribute('data-value'));
+                    close();
+                } else {
+                    open();
+                }
+            }).hover(function() {
+                clearTimeout(tt);
+            },function() {
+                if (!opened) return;
+                tt = setTimeout(close, 500);
+            });
+
+            function open() {
+                cptn.stop().animate({'background-position-y':offset_on}, duration);
+                ul.stop().slideDown(duration, stateToggle);
+            }
+            function close() {
+                cptn.stop().animate({'background-position-y':offset_off}, duration);
+                ul.stop().slideUp(duration, stateToggle);
+            }
+            function stateToggle() {
+                opened = !opened;
+            }
+        });
+
+        // 兼容方法
+        function getEventTarget(e) {
+            try {
+                if (e.target) getEventTarget = function (e) { return e.target; }
+                else throw undefined;
+            } catch (exp) {
+                getEventTarget = function () { return window.event.srcElement; }
+            }
+            return getEventTarget(e);
+        }
+        function getEventTargetText(t) {
+            if ("innerText" in t) getEventTargetText = function (t) { if (t.nodeName === "P") return; return t.innerText; };
+            else getEventTargetText = function (t) { if (t.nodeName === "P") return; return t.textContent; };
+            return getEventTargetText(t);
+        }
+    })();
+
+    // 子栏目 hover
+    (function() {
+        var sup = $('#content .columns');
+        if (!sup.length) return;
+        var links = sup.find('a'),
+            on    = links.filter('.on'),
+            link  = on;
+
+        links.hover(function() {
+            link.removeClass('on');
+            link = $(this).addClass('on');
+        }, function(){});
+        sup.hover(function(){}, function() {
+            link.removeClass('on');
+            link = on.addClass('on');
+        });
+    }());
+
+    // tab 切换
+    (function() {
+        var menu = $('#left .tabMenu');
+        if (!menu.length) return;
+        var cont = $('#left .tabCont'),
+            m_items = menu.children(),
+            c_items = cont.children(),
+            index   = 0,
+            prev_i  = -1,
+            curr_m  = m_items.eq(index).addClass('on'),
+            curr_c  = c_items.eq(index).stop().slideDown(300);
+
+        m_items.on('click', function(elem, idx) {
+            elem = $(this);
+            idx  = elem.index();
+            if (idx === prev_i) return;
+            prev_i = idx;
+            curr_m.removeClass('on');
+            curr_m = m_items.eq(idx).addClass('on');
+            curr_c.stop().slideUp(300);
+            curr_c = c_items.eq(idx).stop().slideDown(300);
+        });
+    }());
+});

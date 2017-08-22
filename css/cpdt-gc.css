@@ -1,0 +1,203 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 459px;
+    background: url("../images/ProductTop.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+.yyx-banner-ul{
+    position: absolute;
+    z-index: 150;
+    bottom: 0px;
+    left: 205px;
+}
+.yyx-banner-ul li{
+    float: left;
+    width: 149px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    background-color: #2b2b2b;
+    margin-right: 5px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.yyx-banner-ul li a{
+    color: #fff;
+}
+.yyx-banner-ul li:nth-of-type(3){
+    background-color: #C2985B;
+}
+.yyx-banner-ul li:hover{
+    background-color: #C2985B;
+}
+/*系列展示*/
+.yyx-con-min{
+    margin-top: 80px;
+}
+.yyx-con-min dl{
+    float: left;
+    display: block;
+    width: 276px;
+    height: 80px;
+    color: #666666;
+    padding-top: 10px;
+    margin-left: 70px;
+}
+.yyx-con-min dl dt{
+    width: 40px;
+    height:80px;
+    float: left;
+}
+.yyx-con-min dl dd{
+    float: left;
+    line-height: 22px;
+    color: #3e3e3e;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.yyx-con-min dl dd p:nth-of-type(2){
+    font-size: 12px;
+}
+.yyx-con-min dl:hover dd{
+    color: #C2985B;
+}
+.yyx-con-min dl:nth-of-type(1) dt{
+    background: url("../images/Project_1.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(1):hover dt{
+    background: url("../images/Project_11.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(2) dt{
+    background: url("../images/Project_2.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(2):hover dt{
+    background: url("../images/Project_22.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(3) dt{
+    background: url("../images/Project_3.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(3):hover dt{
+    background: url("../images/Project_33.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(4) dt{
+    background: url("../images/Project_4.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(4):hover dt{
+    background: url("../images/Project_44.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(5) dt{
+    background: url("../images/Project_5.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(5):hover dt{
+    background: url("../images/Project_55.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(6) dt{
+    background: url("../images/Project_6.png") no-repeat ;
+}
+.yyx-con-min dl:nth-of-type(6):hover dt{
+    background: url("../images/Project_66.png") no-repeat ;
+}
+
+/*防火门展示*/
+.yyx-con-imgs{
+    width: 100%;
+    height: 1224px;
+}
+.yyx-con-imgs dl{
+    width: 258px;
+    height: 400px;
+    margin-right: 15px;
+    float: left;
+}
+.yyx-con-imgs dl dt{
+    width: 258px;
+    height:308px;
+    border:1px solid #e1e1e1;
+}
+.yyx-con-imgs dl dd{
+    width: 258px;
+    text-align: center;
+    font-size: 14px;
+    color: #3e3e3e;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.yyx-con-imgs dl:hover dt{
+     border:1px solid #C2985B;
+ }
+.yyx-con-imgs dl:hover dd{
+   color: #C2985B;
+}
+.yyx-con-imgs dl:nth-of-type(1) dt{
+     background: url("../images/20169261728485861.jpg") no-repeat center center;
+ }
+.yyx-con-imgs dl:nth-of-type(2) dt{
+    background: url("../images/20169261728166901.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(3) dt{
+    background: url("../images/2016926172739441.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(4) dt{
+    background: url("../images/20169261726573941.jpg") no-repeat center center;
+}
+
+
+.yyx-con-imgs dl:nth-of-type(5) dt{
+    background: url("../images/20169261725436491.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(6) dt{
+    background: url("../images/20169261724481691.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(7) dt{
+    background: url("../images/20169261724194801.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(8) dt{
+    background: url("../images/20169261723039051.jpg") no-repeat center center;
+}
+
+
+.yyx-con-imgs dl:nth-of-type(9) dt{
+    background: url("../images/20169261722362791.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(10) dt{
+    background: url("../images/20169261722046691.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(11) dt{
+    background: url("../images/20169261721216281.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(12) dt{
+    background: url("../images/20169261720585251.jpg") no-repeat center center;
+}
+/*分页*/
+.yyx-con-yeA{
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB{
+    margin-left: 159px;
+    float: left;
+}
+.yyx-con-yeB span{
+    padding: 1px 6px;
+    border: solid 1px #ddd;
+    background: #fff;
+    text-decoration: none;
+    margin-right: 2px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB span:nth-of-type(3){
+    background-color: #C2985B;
+    font-weight: bold;
+}
+.yyx-con-yeB span:hover{
+    color: #ffffff;
+    background-color: #C2985B;
+}

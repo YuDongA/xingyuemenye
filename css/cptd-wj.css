@@ -1,0 +1,113 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 459px;
+    background: url("../images/ProductTop.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+.yyx-banner-ul{
+    position: absolute;
+    z-index: 150;
+    bottom: 0px;
+    left: 205px;
+}
+.yyx-banner-ul li{
+    float: left;
+    width: 149px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    background-color: #2b2b2b;
+    margin-right: 5px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.yyx-banner-ul li a{
+    color: #fff;
+}
+.yyx-banner-ul li:nth-of-type(5){
+    background-color: #C2985B;
+}
+.yyx-banner-ul li:hover{
+    background-color: #C2985B;
+}
+/*内容*/
+.yyx-con-text{
+    width: 100%;
+    height: 150px;
+    background: url("../images/Lock-1.gif") no-repeat center center;
+}
+.yyx-con-textB{
+    font-size: 24px;
+    color: #333;
+    line-height: 30px;
+}
+
+/*展示*/
+.yyx-con-imgs{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+}
+.yyx-con-imgs dl{
+    width: 258px;
+    height: 306px;
+    margin-right: 15px;
+    float: left;
+}
+.yyx-con-imgs dl dt{
+    width: 258px;
+    height:308px;
+    border:1px solid #e1e1e1;
+}
+.yyx-con-imgs dl dd{
+    width: 258px;
+    text-align: center;
+    font-size: 14px;
+    color: #3e3e3e;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.yyx-con-imgs dl:hover dt{
+    border:1px solid #C2985B;
+}
+.yyx-con-imgs dl:hover dd{
+    color: #C2985B;
+}
+.yyx-con-imgs dl:nth-of-type(1) dt{
+    background: url("../images/20166191728035011.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(2) dt{
+    background: url("../images/20166191726437121.jpg") no-repeat center center;
+}
+.yyx-con-imgs dl:nth-of-type(3) dt{
+    background: url("../images/20166191725421611.jpg") no-repeat center center;
+}
+
+/*分类*/
+.yyx-con-minA{
+    color: White;
+    background-color: #333333;
+    width: 165px;
+    padding-top: 8px;
+    height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.yyx-con-xian{
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 34px;
+}
+.yyx-con-textC{
+    width: 1080px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #333;
+    line-height: 30px;
+}

@@ -1,0 +1,12 @@
+/* CSS Document */
+body,ul,li{ padding:0; margin:0;}
+.Apicbox ul,li{ list-style:none;}
+img{ border:none;}
+.Abox{ width:980px; margin:0 auto; position:relative; overflow:hidden; _height:100%;}
+.Apicbox{  width:980px; height:160px; overflow:hidden; position:relative;}
+.Apiclist{ height:115px;position:absolute; left:0px; top:0px}
+.Apiclist li{ background:#eee; margin-right:22px; padding:5px; float:left;}
+.Aswaplist{ position:absolute; left:-3000px; top:0px}
+.Aog_prev,.Aog_next{ width:36px; height:36px; background:url(../images/About/left.png) no-repeat;position:absolute; top:60px; z-index:99; cursor:pointer;}
+.Aog_prev{ background-position:0 0px; left:4px;}
+.Aog_next{ background-position:0 0; right:6px; background:url(../images/About/right.png) no-repeat; }

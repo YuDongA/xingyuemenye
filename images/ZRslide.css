@@ -1,0 +1,127 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container  a {
+  color: #fff;
+  text-decoration: none;
+ 
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e6e6e8;
+}
+
+#container 
+{
+    margin-left:69px;
+    height:308px;
+    width:450px;
+  overflow: hidden;
+}
+
+#sliderContainer {
+  position: relative;
+  width: 100%;
+  max-width: 972px;
+  margin: 0 auto;
+}
+
+#slider {
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+
+
+  background-color: #fff;
+
+}
+
+#slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slide {
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.slide.active {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slideCopy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background:rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+ 
+ 
+}
+
+.slideCopy p { font-size: 14px;  text-align:center; color: #fff;}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: auto 0;
+  cursor: pointer;
+  z-index: 100;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+#prev {
+  left: 30px;
+  background-image: url(../images/arrow-left.png);
+  background-position: 13px center;
+  transform: translateX(20px);
+  -webkit-transform: translateX(20px);
+}
+
+#next {
+  right: 20px;
+  background-image: url(../images/arrow-right.png);
+  background-position: 16px center;
+  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+}
+
+.sliderHovered .arrow {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sliderHovered #prev {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+
+.sliderHovered #next {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}

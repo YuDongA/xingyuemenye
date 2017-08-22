@@ -1,0 +1,9 @@
+﻿.side{ position:fixed; width:52px; height:400px; right:32px; bottom :180px; z-index:100;}
+.side ul li{ width:52px; height:52px; float:left; position:relative;border-bottom:1px solid #fff; margin-bottom:2px; }
+.side ul li .sidebox{ position:absolute; width:52px; height:54px; top:0; right:0;transition:all 0.3s;background:#000; opacity:0.8; filter:Alpha(opacity=80); color:#fff; font:14px/54px "微软雅黑"; overflow:hidden;}
+
+.side ul li .sidebox span{position:absolute;
+                             top:0px;}
+
+.side ul li .sidetop{ width:52px; height:54px; display:inline-block;background:#000; opacity:0.8; filter:Alpha(opacity=80);transition:all 0.3s;}
+.side ul li .sidetop:hover{ background:#c2985b; opacity:1; filter:Alpha(opacity=100);}

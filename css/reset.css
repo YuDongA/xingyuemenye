@@ -1,17 +1,58 @@
-/*Bsic reset*/
-html{color:#000;background:#fff;}
-body{font: 12px/1.5 Arial,宋体,sans-serif;}
-body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,pre,
-fieldset,legend,input,textarea,th,td{margin:0;padding:0;}
-table{border-collapse:collapse;border-spacing:0;}
-ul,li{list-style:none;}
-fieldset,img{border:none;}
-a{text-decretiom:none;color: #333333;text-decoration: none}
-input:focus{outline: none;}
-/*旧浏览器html新增的标签无法识别块状显示*/
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+html{color:#000;background:#FFF;font-family:Microsoft YaHei,sans-serif,Arial,'宋体';}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,strong{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}
+a{text-decoration:none;outline:none;}
+var,em,i{font-style:normal;}
+address,caption,cite,code,dfn,em,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+.clear{clear:both;height:0px;overflow:hidden;}
+.clearfix:after{clear:both;display: block;content: "...";visibility: hidden;height: 0;font-size: 0;}
+input[type="submit"],input[type="reset"],input[type="button"],button {-webkit-appearance: none;outline:none;cursor:pointer;}
+.clearfix{*zoom:1;}
+a{-webkit-transition:all 0.2s linear 0s;-moz-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;}
 
-.syd-box{ width:1080px; margin:0 auto;}
+
+
+
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+.left {
+    float: left;
+    display: inline;
+}
+
+.right {
+    float: right;
+    display: inline;
+}
+
+.clear:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.clear {
+    zoom: 1;
+}
+
+
+
+/*不出现滚动条*/
+body{
+    overflow-x: hidden;
+}
+
+.yyx-box{ width:1080px; height:100%;margin:0 auto;}
 .clear:after{clear:both; content:""; display:block;}
 .left{ float:left;}
 .right{ float:right;}
