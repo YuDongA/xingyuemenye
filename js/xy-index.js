@@ -103,12 +103,18 @@ $(function () {
     $("#gfwchat").click(function () {
         $(".syd-alert").css("display","block")
         $(".syd-wechat").css("opacity","1")
-        $(document.body).toggleClass("html-body-overflow");
+        function unScroll() {
+            var top = $(document).scrollTop();
+            $(document).on('scroll.unable',function (e) {
+                $(document).scrollTop(top);
+            })
+        }
     })
     $(".syd-close").click(function () {
         $(".syd-alert").css("display","none")
-        $(document.body).toggleClass("html-body-overflow");
-
+        function removeUnScroll() {
+            $(document).unbind("scroll.unable");
+        }
     })
 })
 
@@ -129,7 +135,7 @@ var Focus=document.querySelector('.focus'),
 var imgNum=0,dotNum=0;
 var oTimer;
 var flag=true;
-var fadeIntime,fadeOutTime;
+var fadeIntimer,fadeOutTimer;
 for(var i=0;i<li.length;i++){
     li[i].style.zIndex=li.length-i;
 }
@@ -177,7 +183,7 @@ LBtn.onclick=function(){
 //焦点事件
 for(var i=0;i<dotLi.length;i++){
     dotLi[i].index=i;
-    dotLi[i].onmouseover=function(){
+    dotLi[i].onclick=function(){
         if(flag){
             flag=false;
             noBg();
@@ -205,6 +211,7 @@ Focus.onmouseout=function(){
 }
 //渐变消失
 function fadeOut(ele){
+    clearInterval(fadeOutTimer)
     fadeOutTimer=setInterval(function(){
         var o=parseFloat(getComputedStyle(ele).opacity);
         if(o<=0){
@@ -217,6 +224,7 @@ function fadeOut(ele){
 }
 //渐变显示
 function fadeIn(ele){
+    clearInterval(fadeIntimer)
     fadeIntimer=setInterval(function(){
         var o=parseFloat(getComputedStyle(ele).opacity);
         if(o>=1){
@@ -236,3 +244,6 @@ function noBg(){
 }
 
 // 轮播图完
+
+
+
