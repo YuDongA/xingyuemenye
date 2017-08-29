@@ -26,6 +26,9 @@
     font-size: 14px;
 }
 .yyx-banner-ul li a{
+    float: left;
+    width: 200px;
+    height: 34px;
     color: #fff;
 }
 .yyx-banner-ul li:nth-of-type(1){
