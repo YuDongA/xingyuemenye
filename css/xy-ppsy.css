@@ -9,6 +9,7 @@ a{
 
 body{
     position: relative;
+    font-family:"Microsoft YaHei";
 }
 #header {
     position: relative;
@@ -251,7 +252,7 @@ body{
     font-family:"Microsoft YaHei";
     font-size:14px;
 }
-.ScodeMenu ul li:first-child{
+.ScodeMenu ul li:nth-child(2){
     background-color: #c2985b;
 }
 .ScodeMenu ul li:hover{
@@ -260,167 +261,250 @@ body{
 .ScodeMenu ul li a{
     color:#fff;
 }
-#about-1 {
-    color: #787878;
-    line-height: 27px;
-}
-#about-1-1 {
+
+#Brand-1 #Brand-1-1 {
     display: block;
     width: 100%;
-    height: 180px;
+    height: 80px;
     margin-top: 60px;
-    background: url(../images/About_1.gif) no-repeat center center;
+    background: url(../images/brand_1.gif) no-repeat center center;
 }
 
-#about-1-2 {
+#Brand-1 #Brand-1-2 {
     display: block;
     width: 100%;
-    height: 250px;
-    margin-top: 20px;
-    background: url(../images/About_2.jpg) no-repeat center center;
+    height: 286px;
+    background-color: #f5f5f5;
+    text-align: center;
 }
 
-#about-1 .text {
-    margin-bottom: 10px;
+#Brand-1 #Brand-1-2 #Brand-1-2-1 {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: url(../images/brand_2.gif) no-repeat center center;
+}
+
+
+#Brand-1 #Brand-1-2 #Brand-1-2-2 {
+    font-size: 16px;
+    color: #c2985b;
+    margin-top: 30px;
+    font-size:16px;
+}
+
+#Brand-1-2-3 {
+    color: #666666;
+    line-height: 25px;
+    margin-top: 25px;
     font-size:14px;
 }
-#about-1-3 {
+
+#Brand-2-1 {
     display: block;
     width: 100%;
-    height: 250px;
-    margin-top: 20px;
-    background: url(../images/About_3.jpg) no-repeat center center;
-}
-#about-2 {
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: #f5f5f5;
+    height: 80px;
+    margin-top: 40px;
+    background: url(../images/brand_7.gif) no-repeat center center;
 }
 
-#about-2-1 {
+
+#Brand-2-2, #Brand-2-3, #Brand-2-4, #Brand-2-5, #Brand-2-6, #Brand-2-7, #Brand-2-8, #Brand-2-9, #Brand-2-10 {
     display: block;
     width: 100%;
-    height: 120px;
-    margin-top: 10px;
-    background: url(../images/About_4.gif) no-repeat center center;
+    height: 150px;
 }
 
-#about-2-2 {
-    display: block;
-    width: 660px;
-    height: 154px;
+#Brand-2-2{
+    background: url(../images/brand_1.jpg) no-repeat center center;
+}
+
+.Textleft {
+    left: 3px;
+    top: 12px;
+}
+.CustomerItemText {
+    position: absolute;
+    width: 440px;
+    color: #666666;
+}
+
+
+.Textleft p {
+    text-align: right;
+    line-height:22px;
+}
+.CustomerTitle {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+.CustomerEn {
+    font-size: 14px;
+}
+
+.Textleft p {
+    text-align: right;
+}
+.TitleY {
+    color: #c2985b;
+    margin-bottom: 15px;
+}
+
+#Brand-2-3 {
+    background: url(../images/brand_2.jpg) no-repeat center center;
+}
+
+
+.TextRight {
+    right: 6px;
+}
+.CustomerItemText {
+    position: absolute;
+    width: 440px;
+    color: #666666;
+}
+
+.g-wrap {
     position: relative;
     margin: 0 auto;
+    width: 1080px;
+    height: 100%;
     overflow: hidden;
     left: 0px;
 }
 
-#about-2-2 .hovery {
-    width: 240px;
+#Brand-2-4 {
+    background: url(../images/brand_3.jpg) no-repeat center center;
 }
 
-#about-2-2 .hoveryContent {
-    width: 380px;
-    color: #787573;
-    background-color: #fff;
+#Brand-2-5 {
+     background: url(../images/brand_4.jpg) no-repeat center center;
+ }
+
+
+#Brand-2-6 {
+     background: url(../images/brand_5.jpg) no-repeat center center;
+ }
+
+#Brand-2-7 {
+    background: url(../images/brand_6.jpg) no-repeat center center;
+}
+
+#Brand-2-8 {
+    background: url(../images/brand_7.jpg) no-repeat center center;
+}
+
+#Brand-2-9 {
+    background: url(../images/brand_8.jpg) no-repeat center center;
+}
+
+
+#Brand-2-10 {
+    background: url(../images/brand_9.jpg) no-repeat center center;
     height: 154px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
-#about-2-2 .hoveryContent p {
-    line-height: 27px;
+#Brand-3 {
+    display: block;
+    width: 100%;
+    height: 570px;
+    background-color: #f3f3f3;
+}
+
+#Brand-3-1 {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: url(../images/brand_3.gif) no-repeat center center;
+}
+
+
+#Brand-3-2-1 {
+    display: block;
+    width: 580px;
+    padding-right: 80px;
+    position: relative;
+    text-align: left;
+}
+
+
+#Brand-3-2-2 {
+    display: block;
+    width: 261px;
+    height: 353px;
+    background: url(../images/brand_4.gif) no-repeat center center;
+}
+
+
+#Brand-3-2-1 .ch {
+    color: #2b2b2b;
+}
+#Brand-3-2-1 p {
     margin-top: 10px;
-    font-size:16px;
-}
-
-
-#year{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#year ul {
-    width: 100%;
-    margin: 0px auto;
-}
-#year ul li {
-    display: inline;
-}
-
-#year ul li a {
-    display: inline-block;
-    width: 51px;
-    height: 50px;
+    line-height: 22px;
+    text-align: justify;
     font-size:14px;
-    margin-bottom: 10px;
-    line-height: 50px;
-    text-align: center;
-    margin-right: 10px;
-    background: url(../images/Year.png) no-repeat center center;
-}
-#year ul li a:hover{
-    color:#c2985b;
-    background: url(../images/Yearhover.png) no-repeat center center;
 }
 
-#about-3-1{
+
+#Brand-4-1 {
     display: block;
     width: 100%;
-    height: 77px;
-    margin-top: 30px;
-    background: url(../images/About_5.gif) no-repeat center center;
+    height: 100px;
+    background: url(../images/brand_5.gif) no-repeat center center;
 }
-#about-3-2 {
-    height: 165px;
-    margin-top: 30px;
-    background: url(../images/About_13.jpg) no-repeat center center;
-    margin-bottom: 30px;
-}
-#about-3-3 .wfItem {
+
+#Brand-4-2-1 {
     display: block;
-    width: 340px;
-    height: 212px;
-    border-right: 1px solid #aeaeae;
-    font-size: 12px;
-    margin-right: 25px;
+    padding-right: 40px;
+    width: 455px;
 }
-#about-3-3 .wfItem p {
+
+#Brand-4-2-1 .title {
+    font-size: 18px;
+    color: #c2985b;
+    margin-bottom: 10px;
+}
+#Brand-4-2-1 p {
     line-height: 30px;
 }
-#about-3-3 .wfItem p span {
-    font-weight: bolder;
+
+#Brand-4-2-1 .en {
+    color: #787878;
+}
+#Brand-4-2-1 p {
+    line-height: 30px;
+    text-align: justify;
 }
 
-#about-4 {
-    display: block;
-    width: 100%;
-    height: 467px;
-    background: no-repeat center 0;
-    background-color: #f5f5f5;
-    margin-top: 40px;
+#Brand-4-2-1 .ch {
+    color: #646464;
 }
 
-#about-4-1 {
-    display: block;
-    width: 100%;
-    height: 120px;
-    margin-top: 30px;
-    background: url(../images/About_6.gif) no-repeat center center;
-}
 
-#about-4-2 {
-    background-image: url(../images/About_12.jpg);
-    height: 346px;
-    width: 100%;
-}
 
-#about-5 {
-    display: block;
-    width: 100%;
-    height: 246px;
-    background-color: #f5f5f5;
-    position:relative;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .picbox {
     padding-top: 30px;
     width: 980px;
@@ -482,13 +566,6 @@ body{
     top: 70px;
 }
 
-#about-6-1 {
-    display: block;
-    width: 100%;
-    height: 160px;
-    background: url(../images/About_7.gif) no-repeat center center;
-}
-
 .picboxs{
     padding-top:0;
 }
@@ -497,97 +574,17 @@ body{
 }
 
 
-#about-6-2 ul li {
-    font-size: 13px;
-    width: 300px;
-    height: 30px;
-    background: url(../images/yuan.png) no-repeat left center;
-    padding-left: 20px;
-    text-align: left;
-    float: left;
-    line-height: 33px;
-    margin-right: 1px;
-}
-
-#about-6-2 ul {
-    padding-left: 80px;
-    margin-top: 20px;
-}
-
-#about-7-1 {
-    display: block;
-    width: 100%;
-    height: 85px;
-    margin-top: 30px;
-    background: url(../images/About_8.gif) no-repeat center center;
-}
-
-#about-7-2 .BGItem {
-    display: block;
-    width: 260px;
-    height: 350px;
-    background-color: #f5f5f5;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-
-#about-7-2 .BGItem p {
-    line-height: 650px;
-    text-align: center;
-    color: #2b2b2b;
-}
-
-#about-8-1 {
-    display: block;
-    width: 100%;
-    height: 131px;
-    margin-top: 30px;
-    background: url(../images/About_9.gif) no-repeat center center;
-}
-
-#about-8 div p {
-    text-align: center;
-    font-size:14px;
-    color: #787573;
-}
-
-#about-8-2 {
-    margin-top: 30px;
-    height: auto;
-}
-
-
-#about-8-2 ul li {
-    float: left;
-}
-
-#about-9-1 {
-    display: block;
-    width: 100%;
-    height: 131px;
-    margin-top: 30px;
-    background: url(../images/About_10.gif) no-repeat center center;
-}
-
-#about-9-2 .zheren {
-    width: 519px;
-    text-align: right;
-}
-
 #container {
-    margin-left: 69px;
-    height: 308px;
-    width: 450px;
+    margin-left: 0px;
+    height:306px;
+    width:585px;
     overflow: hidden;
 }
 
 #sliderContainer {
     position: relative;
-    width: 450px;
-
-    height:308px;
+    height:306px;
+    width:585px;
 }
 #prev {
     position:absolute;
@@ -632,7 +629,7 @@ body{
     position: relative;
     overflow: hidden;
     background-color: #fff;
-    height:308px;
+    height:306px;
 }
 
 .slide {
@@ -641,7 +638,7 @@ body{
     transition: 1s;
     opacity: 0;
     /*pointer-events: none;*/
-    height:308px;
+    height:306px;
 }
 
 .slide.active {
@@ -657,14 +654,14 @@ body{
     left: 0;
     right: 0;
     padding: 10px;
-    width:451px;
+    width:585px;
     height:26px;
     line-height:26px;
     background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
     z-index:200;
 }
 .slideCopy p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     color: #fff;
 }
@@ -693,45 +690,6 @@ body{
     -webkit-transform: translateX(-20px);
 }
 
-#about-9-2 .zherenright {
-    padding-left: 50px;
-    color: #787878;
-}
-
-#Zrtext {
-    height: 280px;
-}
-
-#about-9-2 .zherenright p {
-    line-height: 45px;
-    padding-left: 10px;
-}
-
-#about-9-2 .zherenright p {
-    line-height: 45px;
-    padding-left: 10px;
-}
-
-.font16 {
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-#about-9-2 .zherenright p.zheren2 {
-    line-height: 30px;
-    width: 468px;
-}
-#Zrtext p a{
-    font-size:14px;
-    color:#666;
-}
-#Zrtext p:hover{
-    background:#f0f0f0;
-}
-.zheren2{
-    font-size:14px;
-    color:#666;
-}
 
 #syd-top{
     position: fixed;
@@ -742,52 +700,54 @@ body{
     opacity:0;
     transition:0.8s;
 }
-.slides {
-    position:fixed;
-    width: 52px;
-    height: 438px;
-    background:#000;
-    right: 32px;
-    bottom: 180px;
-    z-index: 100;
+
+#Brand-5-1 {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: url(../images/brand_6.gif) no-repeat center center;
 }
 
-.slides ul li {
-    width: 52px;
-    height: 52px;
-    float: left;
-    position: relative;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 2px;
+#Brand-5-2 .Video, #Brand-5-2 .VideoB {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 190px;
 }
-.slides ul li a{
-    float: left;
-    overflow: hidden;
-    width:100%;
-    height:100%;
+
+#Brand-5-2 .itemVideo {
+    padding: 30px;
 }
-.slides ul li .sidebox {
-    position: absolute;
-    width: 52px;
-    height: 54px;
-    top: 0;
-    right: 0;
-    transition: all 0.3s;
-    background: #000;
-    opacity: 0.8;
-    filter: Alpha(opacity=80);
-    color: #fff;
-    font: 14px/54px "微软雅黑";
+
+#Brand-5-2 .itemVideoLeft {
+    width: 700px;
+}
+
+#Brand-5-2 .itemVideoRight {
+    display: block;
+    width: 309px;
+    height: 129px;
     overflow: hidden;
 }
 
-.slides ul li .sidebox:hover{
-    width:124px;
-    opacity:1;
-    background:rgb(194,152,91);
+#Brand-5-2 .itemVideoTitle {
+    background: url(../images/Voide.png) no-repeat center left;
+    height: 20px;
+    text-indent: 40px;
+    padding-top: 7px;
+    color: #c2985b;
+    font-size: 16px;
 }
 
-.slides ul li .sidebox span {
-    position: absolute;
-    top: 0px;
+
+#Brand-5-2 .itemVideoTitle a.See {
+    display: block;
+    width: 120px;
+    padding: 2px;
+    color: White;
+    font-size: 14px;
+    text-indent: 0px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #403f3f;
 }

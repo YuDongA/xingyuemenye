@@ -1,0 +1,367 @@
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+body{
+    position: relative;
+    font-family:"Microsoft YaHei";
+}
+#header {
+    position: relative;
+    z-index: 5;
+    height: 105px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    width: 109px;
+    height: 62px;
+    background: url(../images/logo.png) no-repeat 0 0;
+}
+
+#nav {
+    position: absolute;
+    top: 0;
+    right: 361px;
+    z-index: 4;
+    height: 100%;
+    background-color: #fff;
+
+}
+#nav li{
+    width:83px;
+    float: left;
+    height: 105px;
+    -webkit-transition: background-color 700ms;
+    transition: background-color 700ms;
+}
+#nav li a.on {
+    color: #fff;
+}
+#nav li a {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+
+    line-height: 100px;
+    text-align: center;
+    color: #666;
+    -webkit-transition: color 300ms;
+    transition: color 200ms;
+}
+
+#nav li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#nav li a span.En {
+    position: absolute;
+    font-size: 10PX;
+    left: 0;
+    top: 0;
+    padding-top: 20%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#nav li a .bkg {
+    top: 100%;
+    z-index: 1;
+    background-color: #c2985b;
+    transition: top 200ms;
+    transition: top 200ms;
+}
+#nav li a .bkg {
+    top: 105px;
+    z-index: 1;
+    background-color: #c2985b;
+    transition: top 200ms;
+    transition: top 200ms;
+}
+
+#nav li.sheng a .bkg {
+    top: 0;
+}
+
+#nav li.sheng a{
+    color:#fff;
+}
+
+
+#jiTuan:hover{
+    background:#c2985b;
+    color:#fff;
+}
+#jiTuanW:hover{
+    background:#c2985b;
+    color:#fff;
+}
+#jiTuan, #jiTuanW {
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: 24px;
+    line-height:24px;
+    font-size:13px;
+    border: 1px solid #c2985b;
+    right: 225px;
+    text-align: center;
+}
+#jiTuanW{
+    top: 62px;
+}
+
+
+#shop {
+    width: 188px;
+    text-align: center;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    z-index: 5;
+    height: 80px;
+    background: #fff;
+}
+#shop ul{
+    float:left;
+}
+#shop ul li{
+    float:left;
+    margin-right:10px;
+}
+#shop ul li a{
+    display: block;
+}
+#shop ul li a p {
+    text-align: center;
+}
+
+
+#content {
+    position: relative;
+
+}
+#subNav {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index:12;
+    overflow:hidden;
+}
+
+
+#subNav .item {
+    position: absolute;
+    background: #4c4a4f;
+    color: #fff;
+    width:100%;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+    top: -40px;
+    height:40px;
+    overflow: hidden;
+    -webkit-transition: top 300ms;
+    transition: top 300ms;
+}
+
+#subNav .about {
+    position: absolute;
+    left: 304px;
+    padding: 0 67px;
+}
+
+#subNav .news{
+    width:100%;
+    position: absolute;
+    left: 387px;
+    padding: 0 67px;
+}
+
+#subNav .relation {
+    left: 470px;
+    padding: 0 80px;
+}
+
+#subNav .item a {
+    float: left;
+    padding: 0 16px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #d2ced5;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+}
+
+#subNav .on{
+    position: absolute;
+    top:0!important;
+}
+
+#syd-banner {
+    height: 495px;
+    position: relative;
+    border: none;
+}
+
+#syd-banner .Joining {
+    background-image: url(../images/JoiningTop.jpg);
+}
+
+#syd-banner .about {
+    background-color: White;
+}
+
+#syd-banner div {
+    background: no-repeat center 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.g-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    height: 100%;
+    overflow: hidden;
+    left: 0px;
+}
+
+#Joining-1 {
+    display: block;
+    width: 100%;
+    height: 276px;
+    background: url(../images/Join_1.gif) no-repeat center center;
+}
+
+#Joining-2 {
+    display: block;
+    width: 1005px;
+    height: 219px;
+    margin: 0 auto;
+    color: #666666;
+}
+
+#Joining-2 .JoiningItem {
+    display: block;
+    float: left;
+    width: 185px;
+    height: 185px;
+    padding: 17px;
+    border: 1px solid #ebebeb;
+    margin-right: 40px;
+}
+#Joining-2 .JoiningItem .img {
+    border-bottom: 1px dashed #cbcbcb;
+    display: block;
+    width: 100%;
+    height: 130px;
+}
+
+#Joining-2 .JoiningItem .img1 {
+    background: url(../images/Join_2.gif) no-repeat center center;
+}
+#Joining-2 .JoiningItem p {
+    padding: 10px 0px;
+    text-align: left;
+    line-height:22px;
+    font-size:14px;
+}
+
+#Joining-2 .JoiningItem .img2 {
+    background: url(../images/Join_3.gif) no-repeat center center;
+}
+
+#Joining-2 .JoiningItem .img3 {
+    background: url(../images/Join_4.gif) no-repeat center center;
+}
+#Joining-2 .JoiningItem .img4 {
+    background: url(../images/Join_5.gif) no-repeat center center;
+}
+#Joining-3 {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background: url(../images/Join_6.gif) no-repeat center center;
+}
+
+#Joining-2 .JoiningItem:nth-child(4){
+    margin-right:0;
+}
+
+#Joining-4 {
+    display: block;
+    width: 1005px;
+    margin: 0 auto;
+    color: #666666;
+}
+
+#Joining-4 .JoiningDivtext {
+    display: block;
+    float: left;
+    width: 230px;
+    margin-right: 21px;
+}
+
+#Joining-4 .JoiningDivtext p{
+    font-size:14px;
+}
+
+#Joining-4 .textEve {
+    margin-top: 10px;
+}
+
+#Joining-4 .JoiningDivtext p img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#Joining-4 .JoiningDivtext p input {
+    border: 1px solid #eaeaea;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    padding:5px;
+}
+
+#Joining-4 .JoiningDivtext p textarea {
+    border: 1px solid #eaeaea;
+    width: 730px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+#Joining-4 .botten {
+    background-color: #898989;
+    color: White;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+    font-size:14px;
+    font-family:"Microsoft YaHei"
+}
+
+
+
+
+
+

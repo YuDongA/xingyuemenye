@@ -210,9 +210,8 @@ for(var i=0;i<year.length;i++){
     function Move(outerClass,boxClass){
         //outerClass 最大的盒子（包着画框和按钮）
         //boxClass 画框
-        this.outer = document.querySelector(outerClass);
+        this.outer = document.getElementsByClassName(outerClass)[0];
         this.box = this.outer.getElementsByClassName(boxClass)[0];
-        console.log(this.outer.getElementsByClassName('picbox')[0])
         this.inner = this.box.children[0];
         this.prev = this.outer.children[1];
         this.next = this.outer.children[2];
@@ -220,16 +219,17 @@ for(var i=0;i<year.length;i++){
         this.iNow = 0;
         this.t = null;
         this.max = this.inner.children.length/4-1;
-        this.outer.onmouseover = ()=>{
+        this.outer.onmouseover =function(){
             clearInterval(this.t)
-        }
-        this.outer.onmouseout = ()=>{
+        }.bind(this)
+        this.outer.onmouseout =function(){
             clearInterval(this.t)
             this.t = setInterval(function(){
                 this.next.onclick()
             }.bind(this),2000)
-        }
+        }.bind(this)
         this.next.onclick = function(){
+            // alert(1)
             this.iNow++;
             if(this.iNow>this.max){
                 this.iNow = 0;
@@ -250,9 +250,13 @@ for(var i=0;i<year.length;i++){
             this.next.onclick()
         }.bind(this),2000)
     }
-    new Move('.move','picbox')
-    new Move('.moves','picboxs')
+    new Move('move','picbox')
+    new Move('moves','picboxs')
 })()
+
+
+
+
 
 
 
@@ -297,3 +301,5 @@ $(function () {
         },2000)
     })
 })
+
+

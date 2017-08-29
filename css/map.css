@@ -1,0 +1,1098 @@
+@charset "utf-8";
+/*              network               */
+.netwoe_con{
+    background:url(../images/Map/maps.jpg) no-repeat left top;
+    padding-bottom:100px;
+}
+
+.xin{
+    width:265px;
+    height:201px;
+    display:block;
+    position:absolute;
+    left:4px;
+    top:167px;
+    color:#333;
+    text-align:center;
+    line-height:201px;
+}
+a.xin:hover{
+    background:url(../images/Map/1.gif) no-repeat left top;
+    width:265px;
+    height:201px;
+    display:block;
+    position:absolute;
+    left:4px;
+    top:167px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+    line-height:201px;
+}
+
+
+
+
+.xizang{
+    width:257px;
+    height:138px;
+    display:block;
+    position:absolute;
+    left:35px;
+    top:357px;
+    color:#333;
+    text-align:center;
+    line-height:138px;
+}
+a.xizang:hover{
+    background:url(../images/Map/2.gif) no-repeat left top;
+    width:257px;
+    height:138px;
+    display:block;
+    position:absolute;
+    left:35px;
+    top:357px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+    line-height:138px;
+}
+
+
+
+
+.qinghai{
+    width:166px;
+    height:138px;
+    display:block;
+    position:absolute;
+    left:175px;
+    top:323px;
+    color:#333;
+    z-index:10000;
+    text-align:center;
+    line-height:138px;
+}
+a.qinghai:hover{
+    background:url(../images/Map/3.gif) no-repeat left top;
+    width:166px;
+    height:138px;
+    display:block;
+    position:absolute;
+    left:175px;
+    top:323px;
+    color:#333;
+    z-index:10000;
+    text-decoration:none;
+    text-align:center;
+    line-height:138px;
+}
+
+.gansu{
+    width:87px;
+    height:34px;
+    padding-top:120px;
+    padding-left:92px;
+    display:block;
+    position:absolute;
+    left:233px;
+    top:276px;
+    color:#333;
+    text-align:center;
+}
+a.gansu:hover{
+    background:url(../images/Map/25.gif) no-repeat left top;
+    width:87px;
+    height:34px;
+    padding-top:120px;
+    padding-left:92px;
+    display:block;
+    position:absolute;
+    left:233px;
+    top:276px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+.neimen{
+    width:292px;
+    height:64px;
+    padding-top:200px;
+    display:block;
+    position:absolute;
+    left:279px;
+    top:93px;
+    color:#333;
+    text-align:center;
+}
+a.neimen:hover{
+    background:url(../images/Map/5.gif) no-repeat left top;
+    width:292px;
+    height:64px;
+    padding-top:200px;
+    display:block;
+    position:absolute;
+    left:279px;
+    top:93px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+
+.heilong{
+    width:149px;
+    height:50px;
+
+    display:block;
+    position:absolute;
+    left:519px;
+    padding-top:87px;
+    top:86px;
+    color:#333;
+    text-align:center;
+}
+a.heilong:hover{
+    background:url(../images/Map/6.gif) no-repeat left top;
+    width:149px;
+    height:50px;
+
+    display:block;
+    position:absolute;
+    left:519px;
+    top:86px;
+    color:#333;
+    padding-top:87px;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+.sichuan{
+    width:162px;
+    height:122px;
+    line-height:122px;
+    display:block;
+    position:absolute;
+    left:273px;
+    z-index:10040;
+    top:405px;
+    color:#333;
+    text-align:center;
+}
+a.sichuan:hover{
+    background:url(../images/Map/sichuan.gif) no-repeat left top;
+    width:162px;
+    height:122px;
+    line-height:122px;
+    display:block;
+    position:absolute;
+    left:273px;
+    top:405px;
+    z-index:10040;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+
+.ning{
+    width:38px;
+    height:60px;
+    line-height:60px;
+    display:block;
+    position:absolute;
+    left:365px;
+    z-index:10080;
+    top:325px;
+    color:#333;
+    text-align:center;
+}
+a.ning:hover{
+    background:url(../images/Map/27.gif) no-repeat left top;
+    width:38px;
+    height:60px;
+    line-height:60px;
+    display:block;
+    position:absolute;
+    left:362px;
+    top:325px;
+    z-index:10080;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+.jilin{
+    width:109px;
+    height:72px;
+    line-height:72px;
+    display:block;
+    position:absolute;
+    left:544px;
+    top:198px;
+    color:#333;
+    text-align:center;
+}
+a.jilin:hover{
+    background:url(../images/Map/7.gif) no-repeat left top;
+    width:109px;
+    height:72px;
+    line-height:72px;
+    display:block;
+    position:absolute;
+    left:544px;
+    top:198px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+.liao{
+    width:75px;
+    height:70px;
+    line-height:70px;
+    display:block;
+    position:absolute;
+    left:525px;
+    top:240px;
+    color:#333;
+    text-align:center;
+}
+a.liao:hover{
+    background:url(../images/Map/8.gif) no-repeat left top;
+    width:75px;
+    height:70px;
+    line-height:70px;
+    display:block;
+    position:absolute;
+    left:525px;
+    top:240px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+
+.hebei{
+    width:59px;
+    height:35px;
+    display:block;
+    padding-left:10px;
+    position:absolute;
+    left:467px;
+    padding-top:65px;
+    top:265px;
+    color:#333;
+}
+a.hebei:hover{
+    background:url(../images/Map/9.gif) no-repeat left top;
+    width:59px;
+    height:35px;
+    display:block;
+    padding-left:10px;
+    position:absolute;
+    left:467px;
+    padding-top:65px;
+    top:265px;
+    color:#333;
+    text-decoration:none;
+}
+
+
+.shanxi{
+    width:63px;
+    height:36px;
+    display:block;
+    position:absolute;
+    left:380px;
+    top:320px;
+    color:#333;
+    padding-top:80px;
+    text-align:center;
+}
+a.shanxi:hover{
+    background:url(../images/Map/28.gif) no-repeat left top;
+    width:63px;
+    height:36px;
+    display:block;
+    position:absolute;
+    left:380px;
+    top:320px;
+    color:#333;
+    text-decoration:none;
+    padding-top:80px;
+    text-align:center;
+}
+
+
+.shan{
+    width:44px;
+    height:91px;
+    display:block;
+    position:absolute;
+    left:432px;
+    line-height:91px;
+    top:301px;
+    color:#333;
+    text-align:center;
+}
+a.shan:hover{
+    background:url(../images/Map/29.gif) no-repeat left top;
+    width:44px;
+    height:91px;
+    display:block;
+    line-height:91px;
+    position:absolute;
+    left:432px;
+    top:301px;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+.shandong{
+    width:67px;
+    height:57px;
+    display:block;
+    position:absolute;
+    line-height:57px;
+    left:491px;
+    top:331px;
+    color:#333;
+    padding-left:20px;
+}
+a.shandong:hover{
+    background:url(../images/Map/13.gif) no-repeat left top;
+    width:67px;
+    height:57px;
+    display:block;
+    line-height:57px;
+    position:absolute;
+    left:491px;
+    top:331px;
+    color:#333;
+    text-decoration:none;
+    padding-left:20px;
+}
+
+
+
+.henan{
+    width:57px;
+    height:70px;
+    display:block;
+    position:absolute;
+    left:435px;
+    line-height:70px;
+    top:364px;
+    color:#333;
+    padding-left:20px;
+}
+
+a.henan:hover{
+    background:url(../images/Map/30.gif) no-repeat left top;
+    width:57px;
+    height:70px;
+    display:block;
+    line-height:70px;
+    position:absolute;
+    left:435px;
+    top:364px;
+    color:#333;
+    text-decoration:none;
+    padding-left:20px;
+}
+
+
+.jiangsu{
+    width:72px;
+    height:57px;
+    display:block;
+    position:absolute;
+    left:510px;
+    line-height:57px;
+    top:375px;
+    text-align:center;
+    color:#333;
+}
+
+a.jiangsu:hover{
+    background:url(../images/Map/14.gif) no-repeat left top;
+    width:72px;
+    height:57px;
+    display:block;
+    line-height:57px;
+    position:absolute;
+    left:510px;
+    top:375px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+
+
+.shanghai{
+    width:40px;
+    height:30px;
+    display:block;
+    position:absolute;
+    left:560px;
+    line-height:20px;
+    top:422px;
+    text-align:left;
+    color:#333;
+}
+
+a.shanghai:hover{
+    background:url(../images/Map/40.gif) no-repeat center top;
+    width:40px;
+    height:30px;
+    display:block;
+    line-height:20px;
+    position:absolute;
+    left:560px;
+    top:422px;
+    color:#333;
+    text-align:left;
+    text-decoration:none;
+}
+
+
+
+
+.anhui{
+    width:62px;
+    height:73px;
+    display:block;
+    position:absolute;
+    left:495px;
+    line-height:73px;
+    top:386px;
+    text-align:center;
+    color:#333;
+}
+
+a.anhui:hover{
+    background:url(../images/Map/15.gif) no-repeat left top;
+    width:62px;
+    height:73px;
+    display:block;
+    line-height:73px;
+    position:absolute;
+    left:495px;
+    top:386px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+
+.zhejiang{
+    width:50px;
+    height:56px;
+    display:block;
+    position:absolute;
+    left:543px;
+    line-height:56px;
+    top:431px;
+    text-align:center;
+    color:#333;
+}
+
+a.zhejiang:hover{
+    background:url(../images/Map/16.gif) no-repeat left top;
+    width:50px;
+    height:56px;
+    display:block;
+    line-height:56px;
+    position:absolute;
+    left:543px;
+    top:431px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+.jiangxi{
+    width:60px;
+    height:86px;
+    display:block;
+    position:absolute;
+    left:488px;
+    line-height:86px;
+    top:454px;
+    text-align:center;
+    color:#333;
+}
+
+a.jiangxi:hover{
+    background:url(../images/Map/18.gif) no-repeat left top;
+    width:60px;
+    height:86px;
+    display:block;
+    line-height:86px;
+    position:absolute;
+    left:488px;
+    top:454px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+.fujian{
+    width:55px;
+    height:70px;
+    display:block;
+    position:absolute;
+    left:522px;
+    line-height:70px;
+    top:477px;
+    text-align:center;
+    color:#333;
+}
+
+a.fujian:hover{
+    background:url(../images/Map/19.gif) no-repeat left top;
+    width:55px;
+    height:70px;
+    display:block;
+    line-height:70px;
+    position:absolute;
+    left:522px;
+    top:477px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+.hubei{
+    width:99px;
+    height:61px;
+    display:block;
+    position:absolute;
+    left:415px;
+    line-height:61px;
+    top:414px;
+    text-align:center;
+    color:#333;
+}
+a.hubei:hover{
+    background:url(../images/Map/32.gif) no-repeat left top;
+    width:99px;
+    height:61px;
+    display:block;
+    line-height:61px;
+    position:absolute;
+    left:415px;
+    top:414px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+.hunan{
+    width:70px;
+    height:78px;
+    display:block;
+    position:absolute;
+    left:425px;
+    line-height:78px;
+    top:463px;
+    text-align:center;
+    color:#333;
+}
+a.hunan:hover{
+    background:url(../images/Map/33.gif) no-repeat left top;
+    width:70px;
+    height:78px;
+    display:block;
+    line-height:78px;
+    position:absolute;
+    left:425px;
+    top:463px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+.guangxi{
+    width:103px;
+    height:73px;
+    display:block;
+    position:absolute;
+    left:366px;
+    line-height:78px;
+    top:520px;
+    text-align:center;
+    color:#333;
+}
+a.guangxi:hover{
+    background:url(../images/Map/21.gif) no-repeat left top;
+    width:103px;
+    height:78px;
+    display:block;
+    line-height:78px;
+    position:absolute;
+    left:366px;
+    top:520px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+.guizhou{
+    width:79px;
+    height:68px;
+    display:block;
+    position:absolute;
+    left:353px;
+    line-height:68px;
+    top:479px;
+    z-index:105000;
+    text-align:center;
+    color:#333;
+}
+a.guizhou:hover{
+    background:url(../images/Map/22.gif) no-repeat left top;
+    width:79px;
+    height:78px;
+    display:block;
+    line-height:68px;
+    position:absolute;
+    left:353px;
+    top:479px;
+    z-index:105000;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+
+.guangdong{
+    width:99px;
+    height:83px;
+    display:block;
+    position:absolute;
+    left:442px;
+    line-height:50px;
+    top:528px;
+    z-index:105000;
+    text-align:center;
+    color:#333;
+}
+a.guangdong:hover{
+    background:url(../images/Map/35.gif) no-repeat left top;
+    width:99px;
+    height:83px;
+    display:block;
+    line-height:50px;
+    position:absolute;
+    left:442px;
+    top:528px;
+    z-index:105000;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+
+.yunnan{
+    width:119px;
+    height:121px;
+    display:block;
+    position:absolute;
+    left:270px;
+    top:481px;
+    line-height:121px;
+    z-index:105000;
+    text-align:center;
+    color:#333;
+}
+a.yunnan:hover{
+    background:url(../images/Map/36.gif) no-repeat left top;
+    width:119px;
+    height:121px;
+    display:block;
+    line-height:121px;
+    position:absolute;
+    left:270px;
+    top:481px;
+    z-index:105000;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+.hainan{
+    width:28px;
+    height:26px;
+    display:block;
+    position:absolute;
+    left:430px;
+    top:617px;
+    line-height:26px;
+    text-align:center;
+    color:#333;
+}
+a.hainan:hover{
+    background:url(../images/Map/34.gif) no-repeat left top;
+    width:28px;
+    height:26px;
+    display:block;
+    line-height:26px;
+    position:absolute;
+    left:430px;
+    top:617px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+.taiwan{
+    width:17px;
+    height:48px;
+    display:block;
+    position:absolute;
+    left:587px;
+    top:515px;
+    line-height:20px;
+    text-align:center;
+    color:#333;
+}
+a.taiwan:hover{
+    background:url(../images/Map/38.gif) no-repeat left top;
+    width:17px;
+    height:48px;
+    display:block;
+    line-height:20px;
+    position:absolute;
+    left:587px;
+    top:515px;
+    color:#333;
+    text-align:center;
+    text-decoration:none;
+}
+
+.beijing{
+    width:50px;
+    height:21px;
+    display:block;
+    position:absolute;
+    left:488px;
+    top:291px;
+    z-index:1000000;
+    color:#333;
+    text-align:left;
+    padding-left:10px;
+}
+a.beijing:hover{
+    background:url(../images/Map/39.gif) no-repeat left top;
+    width:50px;
+    padding-left:10px;
+    height:21px;
+    display:block;
+    position:absolute;
+    left:488px;
+    top:291px;
+    color:#333;
+    z-index:1000000;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+.tianjin{
+    width:60px;
+    height:21px;
+    display:block;
+    position:absolute;
+    left:505px;
+    top:301px;
+    z-index:1000000;
+    color:#333;
+    padding-top:5px;
+    padding-left:3px;
+    text-align:left;
+}
+a.tianjin:hover{
+    background:url(../images/Map/42.gif) no-repeat left top;
+    width:60px;
+    height:21px;
+    display:block;
+    position:absolute;
+    left:505px;
+    top:301px;
+    padding-top:5px;
+    color:#333;
+    z-index:1000000;
+    text-decoration:none;
+    padding-left:3px;
+    text-align:left;
+}
+
+
+
+.chongqing{
+    width:60px;
+    height:70px;
+    line-height:70px;
+    display:block;
+    position:absolute;
+    left:380px;
+    z-index:10040;
+    top:430px;
+    color:#333;
+    text-align:center;
+}
+a.chongqing:hover{
+    background:url(../images/Map/cq.gif) no-repeat left top;
+    width:60px;
+    height:70px;
+    line-height:70px;
+    display:block;
+    position:absolute;
+    left:380px;
+    top:430px;
+    z-index:10040;
+    color:#333;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dayang{
+    width:133px;
+    height:77px;
+    display:block;
+    position:absolute;
+    left:355px;
+    top:534px;
+    z-index:1000;
+    color:#70bb2b;
+    padding-top:50px;
+    padding-left:30px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.dayang:hover{
+    background:url(../images/Map/../en/images/en_dayang.gif) no-repeat left top;
+    width:133px;
+    height:77px;
+    display:block;
+    position:absolute;
+    left:355px;
+    top:534px;
+    padding-top:50px;
+    padding-left:30px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+.beimei{
+    width:285px;
+    height:177px;
+    display:block;
+    position:absolute;
+    left:547px;
+    top:134px;
+    z-index:100;
+    color:#70bb2b;
+    padding-top:200px;
+    padding-left:90px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.beimei:hover{
+    background:url(../images/Map/../en/images/en_beimei.gif) no-repeat left top;
+    width:285px;
+    height:177px;
+    display:block;
+    position:absolute;
+    left:547px;
+    top:134px;
+    padding-top:200px;
+    padding-left:90px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+
+
+
+.nanmei{
+    width:89px;
+    height:157px;
+    display:block;
+    position:absolute;
+    left:760px;
+    top:499px;
+    z-index:100;
+    color:#70bb2b;
+    padding-top:40px;
+    padding-left:30px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.nanmei:hover{
+    background:url(../images/Map/../en/images/en_nanmei.gif) no-repeat left top;
+    width:89px;
+    height:157px;
+    display:block;
+    position:absolute;
+    left:760px;
+    top:499px;
+    padding-top:40px;
+    padding-left:30px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+
+.yazhou{
+    width:252px;
+    height:391px;
+    display:block;
+    position:absolute;
+    left:173px;
+    top:162px;
+    z-index:1000;
+    color:#70bb2b;
+    padding-left:120px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.yazhou:hover{
+    background:url(../images/Map/../en/images/en_yazhou.gif) no-repeat left top;
+    width:252px;
+    height:391px;
+    display:block;
+    position:absolute;
+    left:173px;
+    top:162px;
+    padding-left:120px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+
+
+
+.ouzhou{
+    width:137px;
+    height:84px;
+    display:block;
+    position:absolute;
+    left:49px;
+    top:223px;
+    z-index:1000;
+    color:#70bb2b;
+    padding-top:150px;
+    padding-left:70px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.ouzhou:hover{
+    background:url(../images/Map/../en/images/en_ouzhou.gif) no-repeat left top;
+    width:137px;
+    height:84px;
+    display:block;
+    position:absolute;
+    left:49px;
+    top:223px;
+    padding-top:150px;
+    padding-left:70px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
+
+.feizhou{
+    width:188px;
+    height:132px;
+    display:block;
+    position:absolute;
+    left:31px;
+    top:431px;
+    z-index:1000;
+    color:#70bb2b;
+    padding-top:60px;
+    padding-left:70px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a.feizhou:hover{
+    background:url(../images/Map/../image/en_feizhou.gif) no-repeat left top;
+    width:188px;
+    height:132px;
+    display:block;
+    position:absolute;
+    left:31px;
+    top:431px;
+    padding-top:60px;
+    padding-left:70px;
+    color:#333;
+    z-index:100;
+    text-decoration:none;
+    text-align:left;
+}
+
+
+
+
+
+
+
+/*-- network --*/

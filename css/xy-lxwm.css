@@ -1,0 +1,352 @@
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    font-size:14px;
+}
+
+body{
+    position: relative;
+    font-family:"Microsoft YaHei";
+}
+#header {
+    position: relative;
+    z-index: 5;
+    height: 105px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    top: 22px;
+    left: 1px;
+    width: 109px;
+    height: 62px;
+    background: url(../images/logo.png) no-repeat 0 0;
+}
+
+#nav {
+    position: absolute;
+    top: 0;
+    right: 361px;
+    z-index: 4;
+    height: 100%;
+    background-color: #fff;
+
+}
+#nav li{
+    width:83px;
+    float: left;
+    height: 105px;
+    -webkit-transition: background-color 700ms;
+    transition: background-color 700ms;
+}
+#nav li a.on {
+    color: #fff;
+}
+#nav li a {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+
+    line-height: 100px;
+    text-align: center;
+    color: #666;
+    -webkit-transition: color 300ms;
+    transition: color 200ms;
+}
+
+#nav li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#nav li a span.En {
+    position: absolute;
+    font-size: 10PX;
+    left: 0;
+    top: 0;
+    padding-top: 20%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#nav li a .bkg {
+    top: 100%;
+    z-index: 1;
+    background-color: #c2985b;
+    transition: top 200ms;
+    transition: top 200ms;
+}
+#nav li a .bkg {
+    top: 105px;
+    z-index: 1;
+    background-color: #c2985b;
+    transition: top 200ms;
+    transition: top 200ms;
+}
+
+#nav li.sheng a .bkg {
+    top: 0;
+}
+
+#nav li.sheng a{
+    color:#fff;
+}
+
+
+#jiTuan:hover{
+    background:#c2985b;
+    color:#fff;
+}
+#jiTuanW:hover{
+    background:#c2985b;
+    color:#fff;
+}
+#jiTuan, #jiTuanW {
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: 24px;
+    line-height:24px;
+    font-size:13px;
+    border: 1px solid #c2985b;
+    right: 225px;
+    text-align: center;
+}
+#jiTuanW{
+    top: 62px;
+}
+
+
+#shop {
+    width: 188px;
+    text-align: center;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    z-index: 5;
+    height: 80px;
+    background: #fff;
+}
+#shop ul{
+    float:left;
+}
+#shop ul li{
+    float:left;
+    margin-right:10px;
+}
+#shop ul li a{
+    display: block;
+}
+#shop ul li a p {
+    text-align: center;
+}
+#shop ul li:nth-child(3){
+    margin-right:0px;
+}
+
+
+#content {
+    position: relative;
+}
+#subNav {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    z-index:12;
+    overflow:hidden;
+}
+
+
+#subNav .item {
+    position: absolute;
+    background: #4c4a4f;
+    color: #fff;
+    width:100%;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+    top: -40px;
+    height:40px;
+    overflow: hidden;
+    -webkit-transition: top 300ms;
+    transition: top 300ms;
+}
+
+#subNav .about {
+    position: absolute;
+    left: 304px;
+    padding: 0 67px;
+}
+
+#subNav .news{
+    width:100%;
+    position: absolute;
+    left: 387px;
+    padding: 0 67px;
+}
+
+#subNav .relation {
+    left: 470px;
+    padding: 0 80px;
+}
+
+#subNav .item a {
+    float: left;
+    padding: 0 16px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #d2ced5;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+}
+
+#subNav .on{
+    position: absolute;
+    top:0!important;
+}
+
+#syd-banner {
+    height: 495px;
+    position: relative;
+    border: none;
+}
+
+#syd-banner .Joining {
+    background-image: url(../images/ContactTop.jpg);
+}
+
+#syd-banner .about {
+    background-color: White;
+}
+
+#syd-banner div {
+    background: no-repeat center 0;
+    width: 100%;
+    height: 100%;
+}
+#Contact-1 {
+    display: block;
+    width: 100%;
+    height: 130px;
+    background: url(../images/Contact.gif) no-repeat center center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.g-wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    height: 100%;
+    overflow: hidden;
+    left: 0px;
+}
+
+.ContactGei {
+    background-color: #f9f9f9;
+    padding: 44px 0px;
+}
+.ContactContent {
+    padding-left: 170px;
+    width: 910px;
+    color: #787878;
+}
+#Contact-2 {
+    background: url(../images/logo.png) no-repeat top left;
+}
+
+.ContactContentRight {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ababab;
+}
+
+.ContactContentRight p{
+    font-size: 14px;
+}
+
+.ContactTitle {
+    font-size: 18px;
+    color: #100609;
+    line-height: 30px;
+}
+
+#Contact-3-1 {
+    margin-top: 30px;
+    padding-left: 50px;
+    height: 235px;
+    background: url(../images/Contact2.gif) no-repeat 0px 6px;
+}
+
+#Contact-3-1 p {
+    line-height: 50px;
+    font-size:14px;
+}
+
+.ContactTitle {
+    font-size: 18px;
+    color: #100609;
+    line-height: 30px;
+}
+
+#Contact-4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: url(../images/weixing.gif) no-repeat left center;
+}
+
+
+#Contact-4 p{
+    font-size:14px;
+}
+.ContactContent {
+    padding-left: 170px;
+    width: 910px;
+    color: #787878;
+}
+
+.ContactGei {
+    background-color: #f9f9f9;
+    padding: 44px 0px;
+}
+
+#Contact-5 {
+    background: url(../images/Contact1.gif) no-repeat top left;
+    height: 100px;
+}
+
+#phoneList ul li {
+    border-bottom: 1px solid #d2d2d2;
+    color: #646464;
+    clear: both;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+#phoneList ul li p {
+    float: left;
+    width: 160px;
+    height: 28px;
+    margin-right: 90px;
+    text-align: left;
+    font-size:14px;
+}
+#Map a{
+    font-size:14px;
+}
+
+
+
+
+
