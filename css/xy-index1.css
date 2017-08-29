@@ -215,4 +215,15 @@ a{
 }
 
 
+#syd-top{
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    opacity: 1;
+    cursor: pointer;
+    opacity:0;
+    transition:0.8s;
+}
+
+
 
