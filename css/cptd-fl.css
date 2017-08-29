@@ -117,3 +117,9 @@
 .yyx-con-text-m div:nth-of-type(3){
     background: url("../images/ProductType_4.gif") no-repeat center center;
 }
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
+}

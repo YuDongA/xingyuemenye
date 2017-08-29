@@ -1,0 +1,120 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 459px;
+    background: url("../images/CustomerTop.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+/*content*/
+/*content top*/
+.yyx-con-top{
+    height: 900px;
+    background-color: #EEEEEE;
+}
+.yyx-con-titleA{
+    width: 100%;
+    height: 120px;
+    background: url("../images/Customer-1.gif") no-repeat center center;
+}
+.yyx-con-t-img img{
+    margin-top: 5px;
+}
+/*content bottom*/
+.yyx-con-b-title{
+    width: 100%;
+    height: 120px;
+    background: url("../images/Customer_08.gif") no-repeat center center;
+}
+.yyx-con-pA{
+    color: #505050;
+    line-height: 30px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.yyx-con-boxA{
+    margin-top: 50px;
+    height: 165px;
+}
+.yyx-con-boxA>div{
+    border: 2px solid #e0cbad;
+    border-bottom: 1px solid #c2985b;
+    text-indent: 2em;
+    padding: 10px 8px;
+    width: 260px;
+    height: 120px;
+    float: left;
+    line-height: 18px;
+    margin: 10px;
+    margin-left:50px;
+}
+.yyx-con-boxA p{
+    text-align: center;
+    color: #c2985b;
+    font-weight: bolder;
+    text-indent: 0em;
+    margin-bottom: 10px;
+}
+.yyx-con-boxA>div div{
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-b-img{
+    width: 100%;
+    height: 261px;
+    background: url("../images/Customer1.jpg") no-repeat center center;
+}
+.yyx-con-titleC{
+    width: 100%;
+    height: 120px;
+    background: url("../images/Customer_09.gif") no-repeat center center;
+}
+.yyx-con-imgs{
+    width: 100%;
+    height: 504px;
+}
+.yyx-con-imgs img{
+    float: left;
+    width: 268px;
+    height: 158px;
+    overflow: hidden;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+/*分页*/
+.yyx-con-yeA{
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB{
+    margin-left: 159px;
+    float: left;
+}
+.yyx-con-yeB span{
+    padding: 1px 6px;
+    border: solid 1px #ddd;
+    background: #fff;
+    text-decoration: none;
+    margin-right:15px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB span:nth-of-type(3){
+    background-color: #C2985B;
+    font-weight: bold;
+}
+.yyx-con-yeB span:hover{
+    color: #ffffff;
+    background-color: #C2985B;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
+}

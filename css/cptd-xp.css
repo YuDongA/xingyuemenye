@@ -97,6 +97,7 @@
     height: 244px;
     text-align: center;
 }
+
 .yyx-con-min dl dd{
     margin-top: 10px;
     text-align: center;
@@ -140,16 +141,28 @@
     font-weight: bold;
 }
 /*隐藏*/
-.yyx-con-show{
+#yyx-zong-show{
     position: fixed;
     left: 0;
     top:0;
     right: 0;
     bottom: 0;
     background-color: rgba(4,2,2,0.7);
+    z-index: 9999;
     display: none;
-    z-index: 999;
+
 }
+/*.yyx-con-show{*/
+    /*float: left;*/
+    /*padding: 15px;*/
+    /*width: 1007px;*/
+    /*height: auto;*/
+    /*box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);*/
+    /*background-color: #ffffff;*/
+    /*border-radius: 5px;*/
+    /*margin-left: 150px;*/
+    /*margin-top: 20px;*/
+/*}*/
 .yyx-con-s-min{
     position: absolute;
     left: 50%;
@@ -163,10 +176,13 @@
     background-color: #ffffff;
     border-radius: 5px;
 
+
+    /*position: relative;*/
 }
 .yyx-cons{
     height:559px;
-    overflow-y: scroll;  overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .con-pa{
     font-size: 14px;
@@ -177,8 +193,8 @@
 }
 .yyx-con-s-rod{
     position: absolute;
-    top: -18px;
-    right: -18px;
+    top: -28px;
+    right: -28px;
     width: 36px;
     height: 36px;
     cursor: pointer;
@@ -193,6 +209,7 @@
     width: 400px;
     float: right;
     margin-top: 50px;
+    position: relative;
 }
 .yyx-con-s-right p:nth-of-type(1){
     font-size: 14px;
@@ -234,4 +251,42 @@
     font-size: 14px;
     left: 50%;
     margin-left: -77.5px;
+}
+.yyx-con-jiant{
+    width: 36px;
+    height:36px;
+    position: absolute;
+    top:32.5%;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent url(../images/fancybox_sprite.png) no-repeat;
+    background-position:0 -72px;
+    z-index: 8040;
+    right: 20px;
+    display: none;
+}
+.yyx-con-s-right:hover .yyx-con-jiant{
+    display: block;
+}
+.yyx-con-jiant-l{
+    width: 36px;
+    height:36px;
+    position: absolute;
+    top:50%;
+    /*cursor: pointer;*/
+    text-decoration: none;
+    background: transparent url(../images/fancybox_sprite.png) no-repeat;
+    background-position:0 -36px;
+    z-index: 8040;
+    left: 20px;
+    display: none;
+}
+.yyx-con-s-left:hover .yyx-con-jiant-l{
+    display: block;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
 }

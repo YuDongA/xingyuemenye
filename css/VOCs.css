@@ -1,0 +1,95 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 495px;
+    background: url("../images/VOCs.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+/*content*/
+.yyx-content{
+    width: 100%;
+}
+.yyx-con-title{
+    color: #c2985b;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 60px;
+    height: 40px;
+    border-bottom: 1px solid #aeaeae;
+    text-align: center;
+}
+.yyx-con-titleB{
+    color: #646464;
+    display: block;
+    line-height: 28px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.yyx-con-lei dl{
+    width: 100%;
+    margin-top: 25px;
+    color: #646464;
+    float: left;
+    height: 60px;
+    font-size: 14px;
+}
+.yyx-con-lei dt{
+    float: left;
+}
+.yyx-con-lei dd{
+    width: 900px;
+    float: left;
+    line-height: 28px;
+    padding: 10px;
+}
+.yyx-con-lei dl:nth-last-child(1) dd p{
+    color: #c2985b;
+    margin-top: 30px;
+}
+.yyx-con-sm{
+    float: right;
+    margin-top: 30px;
+}
+.yyx-con-sm p{
+    color: #646464;
+    display: block;
+    line-height: 28px;
+    text-align: right;
+    font-size: 14px;
+}
+.yyx-con-sx{
+    color: #c2985b;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.yyx-con-sxB{
+     color: #787878;
+     font-size: 14px;
+     font-weight: bold;
+     text-align: center;
+ }
+table {
+    width: 100%;
+    display: table;
+    font-size: 14px;
+}
+table td {
+    background: #fff;
+    border: solid 1px #aeaeae;
+    width: 100px;
+    height: 22px;
+    padding: 10px;
+}
+.des {
+    color: #c2985b;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
+}
