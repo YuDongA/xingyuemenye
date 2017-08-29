@@ -1,0 +1,156 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 495px;
+    background: url("../images/JoinUsTop.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+/*content*/
+.yyx-content{
+    width: 100%;
+    height: 1135px;
+}
+.yyx-con-title{
+    width: 100%;
+    height: 280px;
+    background: url(../images/JoinUs1.gif) no-repeat center center;
+    margin-bottom: 20px;
+}
+.yyx-con-dl,.yyx-con-dlB,.yyx-con-dlC{
+    height: 230px;
+    width: 355px;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    background: url(../images/JoinUs2.gif) #f6f6f6 no-repeat center 30%;
+}
+.yyx-con-dlB{
+    background: url(../images/JoinUs3.gif) #f6f6f6 no-repeat center 30%;
+}
+.yyx-con-dlC{
+    background: url(../images/JoinUs4.gif) #f6f6f6 no-repeat center 30%;
+}
+.yyx-con-dl p,.yyx-con-dlB p,.yyx-con-dlC p{
+    text-align: center;
+    font-size: 14px;
+    color: #505050;
+    line-height: 22px;
+}
+.yyx-con-dl p:nth-of-type(1){
+      margin-top: 140px;
+  }
+.yyx-con-dlB p:nth-of-type(1),.yyx-con-dlC p:nth-of-type(1){
+    margin-top: 162px;
+}
+.yyx-con-jt{
+    height: auto;
+}
+.yyx-con-jt div{
+    width:355px;
+    height: 50px;
+    float: left;
+    background: url(../images/JoinUs5.gif) no-repeat center center;
+
+}
+.yyx-con-js div{
+    width: 315px;
+    float: left;
+    margin-left: 40px;
+}
+.yyx-con-js div p{
+    line-height: 22px;
+    font-size: 12px;
+    color:#938D8D;
+}
+.yyx-con-boxA{
+    width: 100%;
+    height: 446px;
+    border-bottom: 1px solid #aeaeae;
+}
+.yyx-con-boxB{
+    font-size: 18px;
+    color: #333333;
+    padding: 30px 0px;
+}
+.yyx-con-item{
+    width: 310px;
+    height: 214px;
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.yyx-con-item:hover{
+    background-color:#F6F6F6;
+}
+.yyc-con-item-txt{
+    color: #323232;
+    font-weight: bolder;
+    width: 100%;
+    border-bottom: 1px solid #a5a5a5;
+    padding: 10px 0px;
+    margin-bottom: 15PX;
+    font-size: 14px;
+}
+.yyx-con-item p{
+    line-height: 22px;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-jia{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    padding-top: 10px;
+    width: 80px;
+    height: 18px;
+    font-size: 14px;
+    color: #3e3e3e;
+    line-height: 10px;
+    background: url(../images/JoinUs6.gif) no-repeat center right;
+    vertical-align: middle;
+}
+/*分页*/
+.yyx-con-ye{
+    width: 100%;
+    float: left;
+}
+.yyx-con-yeA{
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB{
+    margin-left: 159px;
+    float: left;
+}
+.yyx-con-yeB span{
+    padding: 1px 6px;
+    border: solid 1px #ddd;
+    background: #fff;
+    text-decoration: none;
+    margin-right:15px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.yyx-con-yeB span:nth-of-type(3){
+    background-color: #C2985B;
+    font-weight: bold;
+}
+.yyx-con-yeB span:hover{
+    color: #ffffff;
+    background-color: #C2985B;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
+}

@@ -187,7 +187,7 @@
     border: solid 1px #ddd;
     background: #fff;
     text-decoration: none;
-    margin-right: 2px;
+    margin-right:15px;
     cursor: pointer;
     float: left;
     font-size: 14px;
@@ -200,4 +200,10 @@
 .yyx-con-yeB span:hover{
     color: #ffffff;
     background-color: #C2985B;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
 }

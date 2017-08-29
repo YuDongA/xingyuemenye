@@ -1,0 +1,191 @@
+/*banner*/
+.yyx-banner{
+    width: 100%;
+    height: 459px;
+    background: url("../images/ServerTop.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -45px;
+    z-index: 1;
+}
+.yyx-banner-ul{
+    position: absolute;
+    z-index: 150;
+    bottom: 0px;
+    left: 265px;
+}
+.yyx-banner-ul li{
+    float: left;
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    text-align: center;
+    background-color: #2b2b2b;
+    margin-right: 5px;
+    line-height: 34px;
+    font-size: 14px;
+}
+.yyx-banner-ul li a{
+    color: #fff;
+}
+.yyx-banner-ul li:nth-of-type(1){
+    background-color: #C2985B;
+}
+.yyx-banner-ul li:hover{
+    background-color: #C2985B;
+}
+/*内容*/
+.yyx-content{
+    width: 100%;
+    height: 2317px;
+}
+.yyx-con-title{
+    width: 100%;
+    height: 280px;
+    background: url("../images/Server.gif") no-repeat center center;
+}
+.yyx-con-qq{
+    border: 1px solid #d6d6d6;
+    height: 227px;
+    color: #333333;
+}
+.yyx-qq-left{
+    width: 370px;
+    padding-left: 170px;
+    padding-top: 70px;
+    height: 157px;
+    float: left;
+    background-color: #f6f6f6;
+}
+.yyx-qq-left dl{
+    width: 73px;
+    height:100px;
+    font-size: 14px;
+    float: left;
+}
+.yyx-qq-left dl dd{
+    text-align: center;
+}
+.yyx-qq-right{
+    width: 538px;
+    height: auto;
+    float: right;
+}
+.yyx-con-qq-r-min{
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.yyx-con-qq-r-min p{
+    margin-top: 10px;
+    line-height: 22px;
+    text-align: justify;
+    font-size: 14px;
+    color: #333;
+}
+.yyx-con-qq-r-min p:nth-of-type(3){
+    margin-left: 50px;
+}
+.yyx-con-titleB{
+    width: 100%;
+    height: 180px;
+    background: url(../images/Server-1.gif) no-repeat center center;
+}
+.yyx-con-js{
+    display: block;
+    width: 100%;
+    height: 307px;
+    overflow: hidden;
+    background: url(../images/Server-2.jpg) no-repeat center center;
+}
+
+.yyx-con-js p{
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    margin-top: 16px;
+}
+.yyx-con-js p:nth-of-type(1){
+    color: #c2985b;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 120px;
+}
+.yyx-con-js p:nth-of-type(5){
+  margin-top: 5px;
+}
+.yyx-con-titleC{
+    width: 100%;
+    height: 343px;
+    background: url(../images/Server-8.gif) no-repeat center center;
+}
+.yyx-con-tC-left,.yyx-con-tC-right{
+    width: 275px;
+    float: left;
+    margin-top:140px;
+    margin-left: 60px;
+}
+.yyx-con-tC-left p:nth-of-type(1),.yyx-con-tC-right p:nth-of-type(1){
+    color: #c2985b;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.yyx-con-tC-left p,.yyx-con-tC-right p{
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.yyx-con-tC-right{
+    float: right;
+    margin-right:50px;
+}
+.yyx-con-titleD{
+    width: 100%;
+    height: 100px;
+    background: url(../images/Server-2.gif) no-repeat center center;
+}
+.yyx-con-scroll,.yyx-con-scrollB{
+    background-color: #f6f7f7;
+    margin-top: 50px;
+    color: #505050;
+    padding-bottom: 60px;
+}
+.yyx-con-scrollB{
+    background: #ffffff;
+}
+.yyx-con-scr-img,.yyx-con-scr-imgB{
+    width: 400px;
+    height: 315px;
+    float: left;
+    background: url(../images/Server-3.gif) no-repeat center center;
+}
+.yyx-con-scr-imgB{
+    background: url(../images/Server-5.gif) no-repeat center center;
+}
+.yyx-con-scr-title p,.yyx-con-scr-titleB p{
+    font-size: 14px;
+    color: #3e3e3e;
+    line-height: 25px;
+}
+.yyx-con-scr-title,.yyx-con-scr-title{
+    width: 603px;
+    height: 315px;
+    margin-top: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.yyx-con-titleE{
+    width: 100%;
+    height: 100px;
+    background: url(../images/Server-4.gif) no-repeat center center;
+}
+#syd-top{
+    position: fixed;
+    right:50px;
+    bottom: 80px;
+    opacity: 0;
+}
